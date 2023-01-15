@@ -6546,7 +6546,7 @@ public class MainActivity extends AppCompatActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri webpage = Uri.parse("https://github.com/aafaqjavaid786");
+                Uri webpage = Uri.parse("https://github.com/aafaqjavaid786/assignment2");
                 Intent intent = new Intent(Intent.ACTION_VIEW, webpage);
                 startActivity(intent);
             }
